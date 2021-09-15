@@ -1,7 +1,7 @@
 body{
     background-color: #000000;
     color: #FFFFFF;
-    font-family: "Times New Roman", Helvetica;
+    font-family: "Times New Roman", "Helvetica";
 }
 h1{
     font-size: 64px;
@@ -13,19 +13,20 @@ h2{
     text-shadow: #808080 4px 4px 2px;
 
 }
-div{
-    padding: 25px;
-    height: 150px;
+p{
+    font-size: 24px;
+    padding-top: 15px;
 }
 img{
     margin: auto;
     display: block;
     width: 550px;
 }
-p{
-    font-size: 24px;
-    padding-top: 15px;
+div{
+    padding: 25px;
+    min-height: 150px;
 }
+
 #red{
     background: #ff0000;
     text-align: right;
